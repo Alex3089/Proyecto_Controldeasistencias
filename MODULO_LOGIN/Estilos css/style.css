@@ -1,0 +1,94 @@
+body{
+margin: 0;
+padding: 0;
+background: url(../Imagenes/fondopage2.jpg); no-repeat center top;
+background-size: cover;
+font-family: sans-serif;
+height: 100vh;
+
+
+}
+
+.cuadro-login{
+width: 320px; 
+height: 420px;
+background: #000;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+
+}
+
+.cuadro-login .log{
+width: 120px;
+height: 120px;
+border-radius: 550;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+
+}
+
+.cuadro-login label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.cuadro-login h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.cuadro-login input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.cuadro-login input[type="text"],
+.cuadro-login input[type="contraseña"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+
+}
+
+.cuadro-login input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: blue;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.cuadro-login input:hover{
+	color: darkgray;
+}
+
+.cuadro-login .a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+	text-align: center;
+}
+
+.cuadro-login .a:hover {
+	color: #fff;
+
+}
